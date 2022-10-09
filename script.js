@@ -23,6 +23,22 @@ console.log ('Index number for Name Nikita in "item" massive ', number_index)
 console.log('\n');
 
 ebat_chislo = (1*2)*(2*3)+(4*234342423)*(3/232412)+9.45453;
-console.log('Ebat ya kretin '+ ebat_chislo) //I naxyi?
+console.log('Ebat ya kretin '+ ebat_chislo); //I naxyi?
+
+
+
+let inc = 3;
+console.log('До Инкремента ',inc);
+inc++;
+console.log('После инкремента,инкремент рулит!!! ',inc);
+inc--;
+console.log('А это декремент, вот пидарас, все сломал!!!!!!!',inc);
+
+
+item[5] = 'Egor';
+console.log('Новый участник программы: ',item[5]);
+delete item[5];
+console.log('Он ударился мизинцем об тумбочку((( ',item[5]);
+console.log ('И кто будет везти программу? ');
 
 alert('All Good');
