@@ -23,6 +23,15 @@ console.log ('Index number for Name Nikita in "item" massive ', number_index)
 console.log('\n');
 
 ebat_chislo = (1*2)*(2*3)+(4*234342423)*(3/232412)+9.45453;
-console.log('Ebat ya kretin '+ ebat_chislo) //I naxyi?
+console.log('Ebat ya kretin '+ ebat_chislo); //I naxyi?
+
+
+
+let inc = 3;
+console.log('До Инкремента ',inc);
+inc++;
+console.log('После инкремента,инкремент рулит!!! ',inc);
+inc--;
+console.log('А это декремент, вот пидарас, все сломал!!!!!!!',inc);
 
 alert('All Good');
