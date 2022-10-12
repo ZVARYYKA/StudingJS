@@ -140,7 +140,7 @@ while (SCHNumber<=NeedNumber) {
 }
 
 //do -while
-//Страшный сок библиотекаря
+//Страшный соy библиотекаря
 console.log('Сколько книг сжечь?');
 let AllBook = 10;
 let i1 = 0;
@@ -176,6 +176,55 @@ function DateofTOday() {
 // DateofTOday() 
 
 
-alert('All good');
 
 
+function HTMLDate () { //Получение даты
+let todayDate = new Date();
+  document.write('<h1>Сейчас у нас:</h1> ',todayDate.toDateString());
+}
+
+
+HTMLDate (); 
+
+function GetSquare() { //Площадь квадрата
+  let a = 2343;
+  let b = 3234234;
+  let S = a*b; 
+  return S;
+}
+console.log('Площадь, по заданным значениям: ',GetSquare())
+
+function welcome(yourname = 'Друг') { //Если значение параметра undefined, то оно поменяется "по умолчанию"
+  //if (typeof yourname === 'undefined') {
+    //yourname = 'Друг';
+     
+  //}
+  return yourname;
+}
+let erggg = welcome();
+console.log(erggg);
+
+// Использование обьекта arguments в функции
+function ZdarovaPacani() {
+  let welcome = 'Добро пожаловать ';
+  for( i = 0; i < arguments.length; i++) {
+    welcome = welcome+arguments[i]+' ';
+  }
+  return welcome;
+}
+console.log(ZdarovaPacani('Chrispother ','Петя Бухало'));
+
+//анонимная функция, можно к ней обращаться по имени переменной
+var doTheThing = function (thingToDo) {
+  console.log('Сделать следущее ', thingToDo);
+}
+console.log(doTheThing);
+
+//опять анонимная функция
+var myVariable = 'Я нахожусь вне функции.';
+(function() {
+  var myVariable = 'Я нахожусь  в этой анонимной функции';
+  console.log(myVariable);
+  
+})();
+console.log(myVariable);
