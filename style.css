@@ -2,3 +2,14 @@ html, body {
   height: 100%;
   width: 100%;
 }
+.learning {
+  font-size: 30px;
+  color: red;
+  text-align: center;
+}
+.learning2 {
+  margin-top:20px;
+  font-size: 24px;
+  color: blue;
+  text-align: center;
+}
